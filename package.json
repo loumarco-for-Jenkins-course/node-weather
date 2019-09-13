@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cleanup": "echo \"cleaning up(not really)\" && exit 0",
-    "test":    "echo \"Error: no test specified\" && exit 1"
+    "test":    "echo \"unit testing (not really)\" && exit 0",
+    "run":     "node index.js"
    
   },
   "author": "",
