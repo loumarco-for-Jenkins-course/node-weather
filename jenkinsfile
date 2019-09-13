@@ -25,7 +25,7 @@ pipeline {
     }
     post { 
         always { 
-           bat "npm cleanup"
+           bat "npm run cleanup"
         }
     }
 }
