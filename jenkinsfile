@@ -8,13 +8,18 @@ pipeline {
             }
 			post {
 				failure {
-					echo "I failed (sob)"
+					echo "I failed to build (sob)"
 				}
 			}
         }
         stage('execute-unit-tests') {
             steps{
                bat "npm test"
+            }
+        }
+        stage('run-program') {
+            steps{
+               bat "npm run"
             }
         }
     }
