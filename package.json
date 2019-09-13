@@ -6,7 +6,7 @@
   "scripts": {
     "cleanup": "echo \"cleaning up(not really)\" && exit 0",
     "test":    "echo \"unit testing (not really)\" && exit 0",
-    "run":     "node index.js"
+    "run-script":     "node index.js"  
    
   },
   "author": "",
