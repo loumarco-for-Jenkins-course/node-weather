@@ -19,7 +19,7 @@ pipeline {
         }
         stage('run-program') {
             steps{
-               bat "npm run runweather"  
+               bat "node index.js -c Houston"  
             }
         }
     }
