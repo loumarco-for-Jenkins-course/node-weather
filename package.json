@@ -4,6 +4,7 @@
   "description": "For Lab at end of Chapter 3",
   "main": "index.js",
   "scripts": {
+    "cleanup": "echo \"cleaning up(not really)\" && exit 0",
     "test":    "echo \"Error: no test specified\" && exit 1"
    
   },
