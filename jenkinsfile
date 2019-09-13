@@ -18,8 +18,18 @@ pipeline {
             }
         }
         stage('run-program') {
+            input {
+                message "Enter a city"
+                ok "OK"
+                submitter "Lou Marco"
+                parameters {
+                    string(name: 'city', 
+ 					    defaultValue: 'Portland', 
+					    description: 'Whats the weather there?')
+                }
+            }
             steps{
-               bat "node index.js -c Houston"  
+               bat "node index.js -c $city"  
             }
         }
     }
