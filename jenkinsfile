@@ -19,7 +19,7 @@ pipeline {
         }
         stage('run-program') {
             steps{
-               bat "npm run"
+               bat "npm run runweather"  
             }
         }
     }
