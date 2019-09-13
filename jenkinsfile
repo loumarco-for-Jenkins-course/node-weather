@@ -15,7 +15,7 @@ pipeline {
     }
     post { 
         always { 
-            echo 'Pipeline executed!'
+            echo 'Pipeline executed after change!'
         }
     }
 }
