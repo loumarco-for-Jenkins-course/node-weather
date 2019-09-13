@@ -13,8 +13,6 @@ request(url, function (err, response, body) {
   } else {
     const weather = JSON.parse(body)
 
-    console.log( body ) ;
-
     const message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
     console.log(message);
   }

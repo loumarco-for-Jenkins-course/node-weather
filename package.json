@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cleanup": "echo \"cleaning up(not really)\" && exit 0",
-    "test":    "echo \"unit testing (not really)\" && exit 0",
-    "runweather":     "node index.js"  
-   
+    "test":    "echo \"unit testing (not really)\" && exit 0"   
   },
   "author": "",
   "license": "ISC",
