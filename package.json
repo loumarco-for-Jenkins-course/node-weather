@@ -1,10 +1,11 @@
 {
   "name": "weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "For Lab at end of Chapter 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test":    "echo \"Error: no test specified\" && exit 1",
+    "cleanup": "echo \"Cleaning up (not really...)\" && exit 0
   },
   "author": "",
   "license": "ISC",
