@@ -4,7 +4,7 @@ const request = require('request');
 const argv = require('yargs').argv;
 // Think we can all use one key..... (let's hope!)
 const apiKey = '3907911101b608e51681ed06ab597094';
-const city = argv.c || 'portland';
+const city = argv.c || 'Portland';
 const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
 
 request(url, function (err, response, body) {
